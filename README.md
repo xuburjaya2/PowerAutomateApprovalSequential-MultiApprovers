@@ -9,8 +9,7 @@ Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
   <tr> <td>Title</td>  <td>Single line of Text</td> <td>This will be the default column that gets created in a SharePoint list</td> </tr>
   <tr> <td>Approvers</td>  <td>Person or Group</td> <td> Set "allow multiple selections" for column to true. Set "Show profile photos" to true.</td> </tr>
 </table>
-
-**input nama kategori pada title dan sampel penyetuju pada list.** <br> 
+**input nama kategori pada title dan sampel penyetuju pada list.** <br><br> 
 
 ### Step 2
 Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
@@ -21,7 +20,7 @@ Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
   <tr> <td>Approvers</td>  <td>Person or Group</td> <td> Set "allow multiple selections" for column to true. Set "Show profile photos" to true.</td> </tr>
 </table>
 
-**input nama kategori pada title dan sampel penyetuju pada list.** <br> 
+**input nama kategori pada title dan sampel penyetuju pada list.** <br><br> 
 
 
 
@@ -56,7 +55,7 @@ Create a SP list with the following name: **DB - Virtual Card**
 <tr> <td>End Date</td>  <td>Date and time</td> <td>Yes</td><td>  </td> </tr>
 </table>
 
-Ensure all of the columns mentioned in the above table + "Created By" column are a part of the "All Items" View.
+Ensure all of the columns mentioned in the above table + "Created By" column are a part of the "All Items" View. <br> <br> 
 
 
 ### Step 4
