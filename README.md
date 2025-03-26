@@ -1,7 +1,6 @@
 
 
-# SharePoint Expense Reporting Solution
-
+# Power Automate 2 dynamic approver - 1 static PIC Approver - Approver by Category - Approver by DIC
 ### Step 1
 Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
 
@@ -60,15 +59,10 @@ Create a SP list with the following name: **DB - Virtual Card**
 
 Ensure all of the columns mentioned in the above table + "Created By" column are a part of the "All Items" View.
 
-Form Configuration for list.<br> 
-Header JSON [Import JSON](https://github.com/rdorrani/SharePoint/blob/master/ExpenseReportingWorkflow/header.JSON)<br> 
-Body JSON  [Import JSON](https://github.com/rdorrani/SharePoint/blob/master/ExpenseReportingWorkflow/body.JSON)<br> 
-Edit columns for form configuration and hide the following columns : Approval Status, Approval History, Approvers & Approver Index.<br> 
-
 
 ### Step 4
 Go to Power Automate (flow.microsoft.com) and import the following flow:<br> 
-[Import flow](https://github.com/rdorrani/SharePoint/blob/master/ExpenseReportingWorkflow/%F0%9F%92%B2ExpenseReportApprovalWorkflow_20210831225203.zip). <br> <br> 
+[Import flow](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/blob/master/Flow%20Approval/Approval%20sequential%20with%20Formsharepointlist-email-attachment.zip). <br> <br>
 Once imported, ensure you update all the SharePoint actions to point to your newly created lists.  <br> 
 Make sure to turn the flow on.<br><br>
 If Import fails then click on "Save as a new flow" link option in error message.
