@@ -2,6 +2,9 @@
 
 # Power Automate 2 dynamic approver - 1 static PIC Approver - Approver by Category - Approver by DIC
 ### Step 1
+
+![SP List approvers cat](https://github.com/user-attachments/assets/e979eb0f-1d12-4bf6-9171-fcc75e2125fb)
+
 Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
 
 <table>
@@ -12,6 +15,9 @@ Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
 **input nama kategori pada title dan sampel penyetuju pada list.** <br><br> 
 
 ### Step 2
+
+![SP List approvers DIC](https://github.com/user-attachments/assets/83b55502-bb8c-424d-812b-6cbe854025c7)
+
 Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
 
 <table>
@@ -26,6 +32,11 @@ Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
 
 
 ### Step 3
+![DB-vicard 1](https://github.com/user-attachments/assets/8e5ac629-2f39-4eb7-9467-cd61d5840fd7)
+![DB-vicard 2](https://github.com/user-attachments/assets/a77c6872-9dc0-47b6-b4af-c5aacc4f6c7a)
+![DB-vicard 3](https://github.com/user-attachments/assets/3ff48caf-a3e8-4b64-8852-cd800e1fb5e4)
+![DB-vicard 4](https://github.com/user-attachments/assets/f05ea620-3c37-4516-9a9c-1e0e8ccdb541)
+
 Create a SP list with the following name: **DB - Virtual Card**
 
 <table>
