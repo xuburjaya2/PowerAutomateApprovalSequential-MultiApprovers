@@ -5,7 +5,7 @@
 
 ![SP List approvers cat](https://github.com/user-attachments/assets/e979eb0f-1d12-4bf6-9171-fcc75e2125fb)
 
-Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
+Buat SP List dengan nama seperti ini : **"Approvers - Virtual Card"**
 
 <table>
   <th>Column Name</th>  <th>Column Type</th>  <th>Comments</th> 
@@ -18,7 +18,7 @@ Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
 
 ![SP List approvers DIC](https://github.com/user-attachments/assets/83b55502-bb8c-424d-812b-6cbe854025c7)
 
-Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
+Buat SP List dengan nama seperti ini : **"Approvers DIC - Virtual Card"**
 
 <table>
   <th>Column Name</th>  <th>Column Type</th>  <th>Comments</th> 
@@ -37,7 +37,7 @@ Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
 ![DB-vicard 3](https://github.com/user-attachments/assets/3ff48caf-a3e8-4b64-8852-cd800e1fb5e4)
 ![DB-vicard 4](https://github.com/user-attachments/assets/f05ea620-3c37-4516-9a9c-1e0e8ccdb541)
 
-Create a SP list with the following name: **DB - Virtual Card**
+Buat SP List dengan nama seperti ini:  **"DB - Virtual Card"**
 
 <table>
   <th>Column Name</th>  <th>Column Type</th>    <th>Required</th> <th>Comments</th> 
@@ -68,8 +68,19 @@ Create a SP list with the following name: **DB - Virtual Card**
 
 Ensure all of the columns mentioned in the above table + "Created By" column are a part of the "All Items" View. <br> <br> 
 
-
 ### Step 4
+Buat formulir dari sharepoint list ikuti langkah langkah pada foto dibawah ini :
+![step make form](https://github.com/user-attachments/assets/755b3525-1835-48fd-955f-763b9e1f54a9)
+![step make form2](https://github.com/user-attachments/assets/7713fed0-7243-4b25-9bfa-2b2c86c87700)
+![step make form3](https://github.com/user-attachments/assets/0e785469-1cae-489c-91f4-b1319327bf79) <br><br>
+
+Hasil formulirnya seperti ini : <br>
+![form list 1](https://github.com/user-attachments/assets/8893fc52-20ad-48ea-b460-ba8244493d1e)
+![form list 2](https://github.com/user-attachments/assets/c096a63b-d05b-48a7-bf99-5c9de89fc823)
+
+
+
+### Step 5
 Go to Power Automate (flow.microsoft.com) and import the following flow:<br> 
 [Import flow](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/blob/master/Flow%20Approval/Approval%20sequential%20with%20Formsharepointlist-email-attachment.zip). <br> <br>
 Once imported, ensure you update all the SharePoint actions to point to your newly created lists.  <br> 
