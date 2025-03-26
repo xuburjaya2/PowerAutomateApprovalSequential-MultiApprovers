@@ -81,8 +81,8 @@ Hasil formulirnya seperti ini : <br>
 
 
 ### Step 5
-Go to Power Automate (flow.microsoft.com) and import the following flow:<br> 
+Buka Power Automate (flow.microsoft.com) dan import flow berikut:<br> 
 [Import flow](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/blob/master/Flow%20Approval/Approval%20sequential%20with%20Formsharepointlist-email-attachment.zip). <br> <br>
-Once imported, ensure you update all the SharePoint actions to point to your newly created lists.  <br> 
-Make sure to turn the flow on.<br><br>
-If Import fails then click on "Save as a new flow" link option in error message.
+Setelah diimport, pastikan Anda memperbarui semua tindakan SharePoint untuk menunjuk ke daftar yang baru Anda buat.  <br> 
+Pastikan untuk menyalakan alirannya.<br><br>
+Jika Impor gagal maka klik opsi tautan "Save as a new flow" dalam pesan kesalahan.
