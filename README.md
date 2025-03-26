@@ -1,11 +1,74 @@
-![form list 1](https://github.com/user-attachments/assets/f2d6593e-c739-4cf7-976a-67009e42aaa0)
-![form list 2](https://github.com/user-attachments/assets/d0a599b5-6dc4-43e2-9378-dcfac88c65d8)
 
 
-![DB-vicard 4](https://github.com/user-attachments/assets/8ca79e37-f1a7-4500-b411-2d11d7fc7b8b)
-![DB-vicard 3](https://github.com/user-attachments/assets/bfb0b17b-04ae-4636-8594-fd2ab12ff320)
-![DB-vicard 2](https://github.com/user-attachments/assets/95b34916-9d16-43f1-9580-2b54b9acd788)
-![DB-vicard 1](https://github.com/user-attachments/assets/f9d038db-1f76-4abd-9c94-ea7c451bd30b)
+# SharePoint Expense Reporting Solution
 
-![SP List approvers DIC](https://github.com/user-attachments/assets/52108fb7-e7aa-428e-8fc9-c671d6ccd8cb)
-![SP List approvers cat](https://github.com/user-attachments/assets/486f008d-f80c-4291-b6a0-62f22dc74cc3)
+### Step 1
+Buat SP List dengan nama seperti ini : **Approvers - Virtual Card**
+
+<table>
+  <th>Column Name</th>  <th>Column Type</th>  <th>Comments</th> 
+  <tr> <td>Title</td>  <td>Single line of Text</td> <td>This will be the default column that gets created in a SharePoint list</td> </tr>
+  <tr> <td>Approvers</td>  <td>Person or Group</td> <td> Set "allow multiple selections" for column to true. Set "Show profile photos" to true.</td> </tr>
+</table>
+
+**input nama kategori pada title dan sampel penyetuju pada list.** <br> 
+
+### Step 2
+Buat SP List dengan nama seperti ini : **Approvers DIC - Virtual Card**
+
+<table>
+  <th>Column Name</th>  <th>Column Type</th>  <th>Comments</th> 
+  <tr> <td>Title</td>  <td>Single line of Text</td> <td>This will be the default column that gets created in a SharePoint list</td> </tr>
+  <tr> <td>Approvers</td>  <td>Person or Group</td> <td> Set "allow multiple selections" for column to true. Set "Show profile photos" to true.</td> </tr>
+</table>
+
+**input nama kategori pada title dan sampel penyetuju pada list.** <br> 
+
+
+
+
+### Step 3
+Create a SP list with the following name: **DB - Virtual Card**
+
+<table>
+  <th>Column Name</th>  <th>Column Type</th>    <th>Required</th> <th>Comments</th> 
+  <tr> <td>Title</td>  <td>Single line of Text</td> <td>Yes</td><td>This will be the default column that gets created in a SharePoint list</td> </tr>
+<tr> <td>Amount(Rp)</td>  <td>Currency</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>No. PR</td>  <td>Number</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Alasan Pengajuan</td>  <td>Multi lines of Text</td> <td>Yes</td><td>  </td> </tr> 
+<tr> <td>Req. Payment</td>  <td>Multi lines of Text</td> <td>Yes</td><td>  </td> </tr>  
+<tr> <td>No. Rekening</td>  <td>Number</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Nama Pemilik</td>  <td>single line of text</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Nama Bank</td>  <td>single line of text</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Cabang</td>  <td>single line of text</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Head Office</td>  <td>single line of text</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Area</td>  <td>single line of text</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>PIC PIN</td>  <td>Person or group</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Dept head</td>  <td>Person or group</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Div Head</td>  <td>Person or group</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td> Amount Range </td>  <td>Lookup</td><td>Yes</td> <td> Lookup Title column of " Amount Range " list created earlier. To create lookup column go to list settings.  </td> </tr>
+<tr> <td> Director In Charge </td>  <td>Lookup</td><td>Yes</td> <td> Lookup Title column of " Director In Charge " list created earlier. To create lookup column go to list settings.  </td> </tr>
+<tr> <td>Approval History</td>  <td>Multi lines of Text</td><td>No</td>  <td>  </td> </tr>
+<tr> <td>Approval Status</td>  <td>Choice</td><td>No</td> <td> Set Choice values as 'New, Approved, Pending, Rejected'. Set Default value of column to New. </td> </tr>
+<tr> <td>Approval Status</td>  <td>Choice</td><td>No</td> <td> Set Choice values as 'New, Approved, Pending, Rejected'. Set Default value of column to New. </td> </tr>
+<tr> <td>Approver Index</td>  <td>Number</td> <td>No</td> <td> Set "Number of decimal places" for column to 0. </td> </tr>
+<tr> <td>Approvers</td>  <td>Person</td> <td>No</td> <td> Set "allow multiple selections" for column to true. Set "Show profile photos" to true. </td> </tr>
+<tr> <td>No. Ticket</td>  <td>single line of text</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>Created Date</td>  <td>Date and time</td> <td>Yes</td><td>  </td> </tr>
+<tr> <td>End Date</td>  <td>Date and time</td> <td>Yes</td><td>  </td> </tr>
+</table>
+
+Ensure all of the columns mentioned in the above table + "Created By" column are a part of the "All Items" View.
+
+Form Configuration for list.<br> 
+Header JSON [Import JSON](https://github.com/rdorrani/SharePoint/blob/master/ExpenseReportingWorkflow/header.JSON)<br> 
+Body JSON  [Import JSON](https://github.com/rdorrani/SharePoint/blob/master/ExpenseReportingWorkflow/body.JSON)<br> 
+Edit columns for form configuration and hide the following columns : Approval Status, Approval History, Approvers & Approver Index.<br> 
+
+
+### Step 4
+Go to Power Automate (flow.microsoft.com) and import the following flow:<br> 
+[Import flow](https://github.com/rdorrani/SharePoint/blob/master/ExpenseReportingWorkflow/%F0%9F%92%B2ExpenseReportApprovalWorkflow_20210831225203.zip). <br> <br> 
+Once imported, ensure you update all the SharePoint actions to point to your newly created lists.  <br> 
+Make sure to turn the flow on.<br><br>
+If Import fails then click on "Save as a new flow" link option in error message.
