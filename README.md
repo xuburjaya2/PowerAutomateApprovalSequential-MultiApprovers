@@ -6,4 +6,4 @@
 [YOUTUBE CHANNEL REZA](https://www.youtube.com/@RezaDorrani)
 
 ### BERIKUT LINK FLOW YANG SAYA MODIFIKASI
-[IMPORT FLOW](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/blob/master/Flow%20Approval/Approval%20sequential%20with%20Formsharepointlist-email-attachment.zip).
+[IMPORT FLOW](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/tree/4788e215d50f76596bb0d256cdc361537aeba85f/Flow%20Approval).
