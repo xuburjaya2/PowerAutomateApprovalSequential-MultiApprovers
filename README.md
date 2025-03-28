@@ -1,6 +1,13 @@
 
 
 # Power Automate 2 dynamic approver - 1 static PIC Approver - Approver by Category - Approver by DIC
+
+### Diagram Alur pada Power Automate ini :<br>
+![Diagram Flow Multi-Approvals](https://github.com/user-attachments/assets/19a674de-fa5f-4806-a62b-d4dc9fc296aa)
+
+
+
+
 ### Step 1
 
 ![SP List approvers cat](https://github.com/user-attachments/assets/e979eb0f-1d12-4bf6-9171-fcc75e2125fb)
@@ -66,7 +73,7 @@ Buat SP List dengan nama seperti ini:  **"DB - Virtual Card"**
 <tr> <td>End Date</td>  <td>Date and time</td> <td>Yes</td><td>  </td> </tr>
 </table>
 
-Ensure all of the columns mentioned in the above table + "Created By" column are a part of the "All Items" View. <br> <br> 
+Pastikan semua kolom yang disebutkan dalam tabel di atas + kolom "Dibuat Oleh" adalah bagian dari Tampilan "Semua Item". <br> <br> 
 
 ### Step 4
 Buat formulir dari sharepoint list ikuti langkah langkah pada foto dibawah ini :
