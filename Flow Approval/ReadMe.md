@@ -89,7 +89,7 @@ Hasil formulirnya seperti ini : <br>
 
 ### Step 5
 Buka Power Automate (flow.microsoft.com) dan import flow berikut:<br> 
-[Import flow](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/blob/master/Flow%20Approval/Approval%20sequential%20with%20Formsharepointlist-email-attachment.zip). <br> <br>
+[Import flow](https://github.com/xuburjaya2/PowerAutomateApprovalSequential-MultiApprovers/blob/4788e215d50f76596bb0d256cdc361537aeba85f/Flow%20Approval/ApprovalSequentialwithtriggerformSPlist_20250326082449.zip). <br> <br>
 Setelah diimport, pastikan Anda memperbarui semua tindakan SharePoint untuk menunjuk ke daftar yang baru Anda buat.  <br> 
 Pastikan untuk menyalakan alirannya.<br><br>
 Jika Impor gagal maka klik opsi tautan "Save as a new flow" dalam pesan kesalahan.
